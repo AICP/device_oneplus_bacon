@@ -21,3 +21,11 @@ ro.gps.agps_provider=1
 
 # cabl is handled by the panel
 ro.qualcomm.cabl=0
+
+# One Hardware Info
+ro.device.chipset=Qualcomm MSM8974AC Snapdragon 801
+ro.device.cpu=Quad-core 2.5 GHz Krait 400
+ro.device.gpu=Adreno 330
+ro.device.rear_cam=13 MP
+ro.device.front_cam=5 MP
+ro.device.screen_res=1080x1920
