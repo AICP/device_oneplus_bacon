@@ -26,3 +26,7 @@ PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := One
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+PRODUCT_COPY_FILES += \
+    device/oneplus/bacon/prebuilt/common/app/CameraNext.apk:system/app/CameraNext.apk \
+    device/oneplus/bacon/prebuilt/common/app/GalleryNext.apk:system/app/GalleryNext.apk
