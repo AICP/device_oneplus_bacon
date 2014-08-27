@@ -34,10 +34,12 @@
     "target_path": "frameworks/opt/connectivity",
     "branch":      "cm-11.0"
   },
+  {
     "repository": "AOKP/vendor_oneplus",
     "target_path": "vendor/oneplus",
     "branch":      "aokp"
   },
+  {
     "repository": "AOKP/vendor_oppo",
     "target_path": "vendor/oppo",
     "branch":      "aokp"
