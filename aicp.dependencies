@@ -6,8 +6,8 @@
     "branch":      "kitkat"
   },
   {
-    "remote": "aokp",
-    "repository": "AOKP/device_oppo_msm8974-common",
+    "remote": "aicp",
+    "repository": "AICP/device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
     "branch":      "kitkat"
   },
