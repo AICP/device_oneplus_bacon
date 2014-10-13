@@ -1,9 +1,9 @@
 [
   {
-    "remote": "aokp",
-    "repository": "AOKP/device_oppo_common",
+    "remote": "cm",
+    "repository": "CyanogenMod/android_device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch":      "kitkat"
+    "branch":      "cm-11.0"
   },
   {
     "remote": "aicp",
@@ -48,14 +48,14 @@
     "branch":      "cm-11.0"
   },
   {
-    "remote": "aokp",
-    "repository": "AOKP/vendor_oneplus",
+    "remote": "cm",
+    "repository": "TheMuppets/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch":      "kitkat"
+    "branch":      "cm-11.0"
   },
   {
-    "remote": "aokp",
-    "repository": "AOKP/vendor_oppo",
+    "remote": "aicp",
+    "repository": "AICP/proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
     "branch":      "kitkat"
   }
