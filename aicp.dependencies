@@ -1,52 +1,64 @@
 [
   {
-    "repository": "AICP/device_oppo_common",
-    "target_path": "device/oppo/common",
-    "branch":      "kitkat"
-  },
-  {
     "repository": "AICP/device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
-    "branch":      "kitkat"
+    "revision": "lp5.0"
   },
   {
-    "repository": "CyanogenMod/android_device_qcom_common",
+    "repository": "AICP/device_oppo_common",
+    "target_path": "device/oppo/common",
+    "revision": "lp5.0"
+  },
+  {
+    "remote": "cm",
+    "repository": "Cyanogenmod/android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "branch":      "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
+    "remote": "cm",
+    "repository": "Cyanogenmod/android_device_qcom_sepolicy",
+    "target_path": "device/qcom/sepolicy",
+    "revision": "cm-12.0"
+  },
+  {
+    "remote": "cm",
     "repository": "Cyanogenmod/android_kernel_oneplus_msm8974",
     "target_path": "kernel/oneplus/msm8974",
-    "branch":      "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
-    "repository": "CyanogenMod/android_hardware_qcom_audio-caf",
-    "target_path": "hardware/qcom/audio-caf",
-    "branch":      "cm-11.0"
-  },
-  {
-    "repository": "CyanogenMod/android_hardware_qcom_display-caf-new",
-    "target_path": "hardware/qcom/display-caf-new",
-    "branch":      "cm-11.0"
-  },
-  {
-    "repository": "CyanogenMod/android_hardware_qcom_media-caf-new",
-    "target_path": "hardware/qcom/media-caf-new",
-    "branch":      "cm-11.0"
-  },
-  {
-    "repository": "CyanogenMod/android_frameworks_opt_connectivity",
+    "remote": "cm",
+    "repository": "Cyanogenmod/android_frameworks_opt_connectivity",
     "target_path": "frameworks/opt/connectivity",
-    "branch":      "cm-11.0"
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "cm",
+    "repository": "Cyanogenmod/android_hardware_qcom_audio",
+    "target_path": "hardware/qcom/audio-caf/msm8974"
+    "branch": "cm-12.0-caf-8974"
+  },
+  {
+    "remote": "cm",
+    "repository": "Cyanogenmod/android_hardware_qcom_display",
+    "target_path": "hardware/qcom/display-caf/msm8974"
+    "branch": "cm-12.0-caf-8974"
+  },
+  {
+    "remote": "cm",
+    "repository": "Cyanogenmod/android_hardware_qcom_media",
+    "target_path": "hardware/qcom/media-caf/msm8974"
+    "branch": "cm-12.0-caf-8974"
   },
   {
     "repository": "TheMuppets/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch":      "cm-11.0"
+    "revision": "cm-12.0"
   },
   {
-    "repository": "AICP/proprietary_vendor_oppo",
+    "repository": "TheMuppets/proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
-    "branch":      "kitkat"
+    "revision": "cm-12.0"
   }
 ]
