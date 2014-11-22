@@ -106,6 +106,13 @@
          The default is false. -->
     <bool name="config_lidControlsSleep">true</bool>
 
+    <!-- Default color for notification LED is white. -->
+    <color name="config_defaultNotificationColor">#ffffffff</color>
+
+    <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors
+    <bool name="config_multiColorBatteryLed">true</bool>
+    -->
+
     <!-- Indicate the device's Smart Cover coordinates.
          If none are provided, then the feature will be disabled.
          The array should contain 4 values, in pixels, (sample values provided):
@@ -144,23 +151,10 @@
         <item>25</item>
     </integer-array>
 
-    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveNotificationLed">true</bool>
-
-    <!-- Does the notification LED support multiple colors? Used to decide if the user can change the colors
-    <bool name="config_multiColorNotificationLed">true</bool> -->
-
-    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option
-    <bool name="config_intrusiveBatteryLed">true</bool> -->
-
-    <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors
-    <bool name="config_multiColorBatteryLed">true</bool> -->
-
-    <!-- Enable the option to check proximity sensor when deciding whether to
-         turn the screen on
-         NOTE ! - Enable for devices that have a fast response proximity sensor
-
-    <bool name="config_proximityCheckOnWake">true</bool>
-    <integer name="config_proximityCheckTimeout">400</integer>    -->
-
+    <!-- Doze mode -->
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <integer name="config_screenBrightnessDoze">1</integer>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 </resources>
