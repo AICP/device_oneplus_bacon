@@ -10,16 +10,6 @@
     "branch": "cm-12.0"
   },
   {
-    "repository": "Cyanogenmod/android_device_qcom_common",
-    "target_path": "device/qcom/common",
-    "branch": "cm-12.0"
-  },
-  {
-    "repository": "Cyanogenmod/android_device_qcom_sepolicy",
-    "target_path": "device/qcom/sepolicy",
-    "branch": "cm-12.0"
-  },
-  {
     "repository": "Cyanogenmod/android_kernel_oneplus_msm8974",
     "target_path": "kernel/oneplus/msm8974",
     "branch": "cm-12.0"
@@ -28,21 +18,6 @@
     "repository": "Cyanogenmod/android_frameworks_opt_connectivity",
     "target_path": "frameworks/opt/connectivity",
     "branch": "cm-12.0"
-  },
-  {
-    "repository": "Cyanogenmod/android_hardware_qcom_audio",
-    "target_path": "hardware/qcom/audio-caf/msm8974",
-    "branch": "cm-12.0-caf-8974"
-  },
-  {
-    "repository": "Cyanogenmod/android_hardware_qcom_display",
-    "target_path": "hardware/qcom/display-caf/msm8974",
-    "branch": "cm-12.0-caf-8974"
-  },
-  {
-    "repository": "Cyanogenmod/android_hardware_qcom_media",
-    "target_path": "hardware/qcom/media-caf/msm8974",
-    "branch": "cm-12.0-caf-8974"
   },
   {
     "repository": "TheMuppets/proprietary_vendor_oneplus",
