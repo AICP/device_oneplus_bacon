@@ -1,8 +1,8 @@
 [
   {
-    "repository": "AICP/device_oppo_msm8974-common",
+    "repository": "CyanogenMod/android_device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
-    "branch": "lp5.0"
+    "branch": "cm-12.0"
   },
   {
     "repository": "Cyanogenmod/android_device_oppo_common",
