@@ -2,12 +2,12 @@
   {
     "repository": "AICP/device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
-    "branch": "lp5.0"
+    "branch": "lp5.1"
   },
   {
     "repository": "AICP/device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "lp5.0"
+    "branch": "lp5.1"
   },
   {
     "repository": "CyanogenMod/android_kernel_oneplus_msm8974",
@@ -22,6 +22,6 @@
   {
     "repository": "AICP/proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
-    "branch": "lp5.0"
+    "branch": "lp5.1"
   }
 ]
