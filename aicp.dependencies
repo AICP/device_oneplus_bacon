@@ -10,9 +10,9 @@
     "branch": "lp5.1"
   },
   {
-    "repository": "CyanogenMod/android_kernel_oneplus_msm8974",
+    "repository": "AICP/android_kernel_oneplus_msm8974",
     "target_path": "kernel/oneplus/msm8974",
-    "branch": "cm-12.1"
+    "branch": "lp5.1"
   },
   {
     "repository": "TheMuppets/proprietary_vendor_oneplus",
