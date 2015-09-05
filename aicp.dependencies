@@ -15,9 +15,9 @@
     "branch": "cm-12.1"
   },
   {
-    "repository": "TheMuppets/proprietary_vendor_oneplus",
+    "repository": "AICP/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch": "cm-12.1"
+    "branch": "lp5.1"
   },
   {
     "repository": "AICP/proprietary_vendor_oppo",
