@@ -23,6 +23,3 @@ ro.gps.agps_provider=1
 
 # cabl is handled by the panel
 ro.qualcomm.cabl=0
-
-#AICP Device Maintainers
-ro.aicp.maintainer=LorD CloCKaN, semdoc (doc HD)
