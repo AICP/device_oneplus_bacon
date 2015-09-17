@@ -13,10 +13,5 @@
     "repository": "AICP/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
     "branch": "lp5.1"
-  },
-  {
-    "repository": "AICP/proprietary_vendor_oppo",
-    "target_path": "vendor/oppo",
-    "branch": "lp5.1"
   }
 ]
