@@ -1,8 +1,8 @@
 [
   {
-    "repository": "AICP/device_oppo_common",
+    "repository": "Cyanogenmod/android_device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "lp5.1"
+    "branch": "cm-12.1"
   },
   {
     "repository": "CyanogenMod/android_kernel_oneplus_msm8974",
@@ -10,8 +10,8 @@
     "branch": "cm-12.1"
   },
   {
-    "repository": "AICP/proprietary_vendor_oneplus",
+    "repository": "TheMuppets/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch": "lp5.1"
+    "branch": "cm-12.1"
   }
 ]
