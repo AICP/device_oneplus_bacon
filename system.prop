@@ -73,3 +73,11 @@ persist.timed.enable=true
 
 # Wifi
 wifi.interface=wlan0
+
+# bacon Hardware Info
+ro.device.chipset=Qualcomm MSM8974AC Snapdragon 801
+ro.device.cpu=Quad-core 2.5 GHz Krait 400
+ro.device.gpu=Adreno 330
+ro.device.rear_cam=13 MP
+ro.device.front_cam=5.0 MP
+ro.device.screen_res=1080x1920
