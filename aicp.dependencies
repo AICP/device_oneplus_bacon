@@ -1,9 +1,9 @@
 
 [
   {
-    "repository": "AICP/device_oppo_common",
+    "repository": "CyanogenMod/android_device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "mm6.0"
+    "branch": "cm-13.0"
   },
   {
     "repository": "CyanogenMod/android_kernel_oneplus_msm8974",
