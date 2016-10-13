@@ -228,8 +228,9 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 PRODUCT_PACKAGES += \
     Stk
     
-#Telephony
-PRODUCT_PACKAGES += telephony-ext    
+# Telephony-ext
+PRODUCT_PACKAGES += telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
 
 # Thermal config
 PRODUCT_COPY_FILES += \
