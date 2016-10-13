@@ -30,11 +30,12 @@
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <sys/stat.h>
 #include <sys/types.h>
 
+#include <cutils/properties.h>
 #include "vendor_init.h"
-#include "property_service.h"
 #include "log.h"
 #include "util.h"
 
@@ -103,10 +104,4 @@ static void import_kernel_nv(char *name, int for_emulator)
     } else if (!strcmp(name,"oppo.pcb_version")) {
         property_set("ro.oppo.pcb_version", value);
     }
-}
-
-void vendor_load_properties()
-{
-    import_kernel_cmdline(0, import_kernel_nv);
-    init_alarm_boot_properties();
 }

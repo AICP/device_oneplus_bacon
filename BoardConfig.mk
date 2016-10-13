@@ -34,6 +34,11 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno330
 # Build with Clang by default
 USE_CLANG_PLATFORM_BUILD := true
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.first_api_level=23
+
+WITHOUT_CHECK_API := true
+
 # Architecture
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
@@ -82,7 +87,7 @@ QCOM_BT_USE_SMD_TTY := true
 # Camera
 TARGET_USE_COMPAT_GRALLOC_ALIGN := true
 USE_DEVICE_SPECIFIC_CAMERA := true
-COMMON_GLOBAL_CFLAGS += -DOPPO_CAMERA_HARDWARE -DCAMERA_VENDOR_L_COMPAT
+#COMMON_GLOBAL_CFLAGS += -DOPPO_CAMERA_HARDWARE -DCAMERA_VENDOR_L_COMPAT
 
 # CM Hardware
 BOARD_USES_CYANOGEN_HARDWARE := true
@@ -102,8 +107,8 @@ endif
 TARGET_HW_DISK_ENCRYPTION := true
 
 # Flags for modem (we still have an old modem)
-COMMON_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_10
-COMMON_GLOBAL_CPPFLAGS += -DUSE_RIL_VERSION_10
+#COMMON_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_10
+#COMMON_GLOBAL_CPPFLAGS += -DUSE_RIL_VERSION_10
 
 # Filesystem
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -162,7 +167,7 @@ TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.bacon
 TARGET_NO_RPC := true
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+#include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
     $(PLATFORM_PATH)/sepolicy
