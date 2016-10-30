@@ -104,7 +104,7 @@ ifeq ($(HOST_OS),linux)
 endif
 
 # Encryption
-#TARGET_HW_DISK_ENCRYPTION := true
+TARGET_HW_DISK_ENCRYPTION := true
 
 # Flags for modem (we still have an old modem)
 BOARD_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_10
