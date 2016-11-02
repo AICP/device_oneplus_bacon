@@ -3,17 +3,17 @@
   {
     "repository": "AICP/device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "n7.0"
+    "branch": "n7.1"
   },
   {
     "repository": "Raienryu97/android_kernel_oneplus_msm8974",
     "target_path": "kernel/oneplus/msm8974",
-    "branch": "cm-14.0"
+    "branch": "cm-14.1"
   },
   {
     "repository": "CyanogenMod/android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "branch": "cm-14.0"
+    "branch": "cm-14.1"
   },
   {
     "repository": "Raienryu97/proprietary_vendor_oneplus",
