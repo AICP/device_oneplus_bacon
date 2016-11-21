@@ -1,8 +1,8 @@
 [
   {
-    "repository": "CyanogenMod/android_device_oppo_common",
+    "repository": "AICP/device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch"     : "cm-14.1"
+    "branch"     : "n7.1"
   },
   {
     "repository": "CyanogenMod/android_device_qcom_common",
